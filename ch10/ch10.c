@@ -1,29 +1,36 @@
-#include<stdio.h>
-#include "contact.h"
-//typedef struct contact {
-//	char name[50];
-//	char phone[15];
-//	int rightone;
-//} conduct;
+#include <stdio.h>
+#include "ch10-01.h"
 
-void swap
+//struct contact
+//{
+	//char name[50];
+	//char pyone[50];
+	//int ringtone;
 
-`	
-int test_point() {
-	point p1 = { 1,2 };
-	//point p2 = { 3,4 };
+//};
 
-	point p3 = { 0 };
 
-	p3 = mul10(p1);
-	//swap(&p1,&p2
-}
-
-point mul10(point pt)
+typedef struct contact
 {
-	point pr = { 0 };
-	pr.x *= 10;
-	pr.y *= 10;
+	char name[50];
+	char phone[50];
+	int ringtone;
 
-	return pr;
+}Contact;
+
+Contact kim = { 0 };
+
+int main()
+{
+	Contact lee = { "LEE", "010-1234-5678", 1 };
+
+	Contact lee2 = { 0 };
+
+	lee2 = lee;
+
+	strcpy(lee2.name, "LEE2");
+	strcpy(lee2.phone, "010-9876-5432");
+	lee2.ringtone = 2;
+
+	return 0;
 }

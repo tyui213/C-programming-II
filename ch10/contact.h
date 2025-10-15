@@ -1,7 +1,8 @@
-#include<stdint.h>
-
-typedef struct contact {
+#pragma once
+typedef struct contact
+{
 	char name[50];
-	char phone[15];
-	int rightone;
-} conduct;
+	char phone[50];
+	int ringtone;
+
+}Contact;

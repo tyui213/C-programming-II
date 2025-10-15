@@ -27,7 +27,10 @@
     <ClCompile Include="07-7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="07-11.c">
+    <ClCompile Include="07-12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07-18.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
